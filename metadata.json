@@ -1,0 +1,6 @@
+{
+  "name": "Mobile Transfer",
+  "description": "A high-fidelity local file sharing app utilizing Wi-Fi Direct for rapid secure peer-to-peer transfers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

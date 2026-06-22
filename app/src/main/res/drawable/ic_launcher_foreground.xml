@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Left Sending Beam/Device shape -->
+    <path
+        android:pathData="M 32,32 L 48,48 L 32,64 Z"
+        android:strokeWidth="1">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="32"
+                android:endX="48"
+                android:endY="64"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0"/>
+                <item android:color="#0284C7" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right Receiving Beam/Device shape -->
+    <path
+        android:pathData="M 76,76 L 60,60 L 76,44 Z"
+        android:strokeWidth="1">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="76"
+                android:startY="76"
+                android:endX="60"
+                android:endY="44"
+                android:type="linear">
+                <item android:color="#34D399" android:offset="0.0"/>
+                <item android:color="#059669" android:offset="1.0"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sleek Center sharing signal lines or arrows -->
+    <path
+        android:pathData="M 40,40 C 48,34 60,34 68,40"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M 68,68 C 60,74 48,74 40,68"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Core document icon representing "file" -->
+    <path
+        android:pathData="M 46,46 L 56,46 L 62,52 L 62,62 L 46,62 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Folded paper fold visual accent -->
+    <path
+        android:pathData="M 56,46 L 56,52 L 62,52 Z"
+        android:fillColor="#CBD5E1" />
+</vector>
